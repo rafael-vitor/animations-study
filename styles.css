@@ -1,0 +1,25 @@
+body {
+  background-color: #fafafa;
+}
+
+.workspace {
+  display: flex;
+  padding: 80px;
+  border: 1px red solid;
+}
+
+.translate {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  transition: all 3s ease-in-out 0.5s;
+  /* transition: all 3s ease-in-out 0.5s; */
+  /* transition: border-radius 0.5s; */
+
+}
+
+  .translate:hover {
+    /* transform: translateX(200px) translateY(200px) scaleX(3) rotateZ(10deg) skewX(45deg); */
+    transform: scaleX(3) rotateZ(10deg) skewX(45deg);
+  }
